@@ -5,6 +5,7 @@
     text-align: center;
     color:darkslateblue;
     font-size: large;
+    width: 1210px;
 }
 
 .para {
@@ -18,4 +19,30 @@
     margin: 25px;
     text-align: left;
     color: black;
+    width: 1250px;
+}
+
+span {
+    font-style: italic;
+}
+
+img {
+    width: 100px;
+    padding: 10px;
+    float: right;
+    position: relative;
+    bottom: 130px;
+    z-index: 2;
+}
+
+div {
+    width: 300px;
+    background-color: coral;
+    text-align: center;
+    padding: 5px;
+    margin: 25px;
+}
+
+button {
+    width: 30%;
 }
