@@ -20,29 +20,41 @@
     text-align: left;
     color: black;
     width: 1250px;
+    height: 300px;
 }
 
 span {
     font-style: italic;
 }
 
-img {
-    width: 100px;
-    padding: 10px;
-    float: right;
+h2 {
+    display: inline;
     position: relative;
-    bottom: 130px;
-    z-index: 2;
+    margin: 80px;
 }
 
-div {
-    width: 300px;
-    background-color: coral;
-    text-align: center;
-    padding: 5px;
+ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 73px;
+    margin-left: 15px;
+}
+
+.special {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color:aquamarine;
+    padding: 6px;
     margin: 25px;
+    text-align: center;
+    color: black;
+    width: 1250px;
+    height: 30px;
 }
 
-button {
-    width: 30%;
+footer {
+    display: inline;
+    margin: 15px;
 }
